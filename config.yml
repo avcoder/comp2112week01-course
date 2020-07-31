@@ -1,0 +1,19 @@
+title: comp2112Week01
+description: >-
+  Create a very simple console/text-based Poker game using
+  https://www.pokerapi.dev/.  In the process you'll review basic JS fundamentals
+  like arrays, objects.  But you'll also eventually learn ES6+ concepts.
+template:
+  repo: comp2112week01-template
+  name: comp2112week01
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
